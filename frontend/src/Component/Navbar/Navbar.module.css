@@ -1,0 +1,41 @@
+.Navbar {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 0.2px solid grey;
+  padding: 25px 15px;
+}
+.Popup {
+  display: none;
+}
+.Navbar > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 32px;
+}
+
+.Links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  padding: 4px 20px 2px 5px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.Links:hover {
+  background-color: aliceblue;
+}
+
+
+@media screen and (min-width:200px) and (max-width:650px){
+  .Navbar{
+    width:35%;
+    font-size: 14px;
+    padding:10px 15px;
+  }
+}

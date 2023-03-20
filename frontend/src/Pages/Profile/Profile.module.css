@@ -1,0 +1,62 @@
+.Avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  font-size: 160px;
+  color: rgb(158, 156, 156);
+  cursor: pointer;
+}
+
+.Profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+.heading1 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  margin-bottom: 8px;
+}
+.logout {
+  padding: 2px 8px;
+  background-color: rgb(247, 93, 93);
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+.Edit button {
+  border: 0.5px solid grey;
+  padding: 2px 15px;
+  border-radius: 8px;
+  background-color: aliceblue;
+}
+.editProfile {
+  display: none;
+}
+
+.Line {
+  width: 90%;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.Line hr {
+  width: 100%;
+}
+
+
+@media screen and (min-width:200px) and (max-width:549px) {
+    .Avatar{
+      width:40px;
+      height:40px;
+      font-size: 20px;
+    }
+    .heading1{
+      font-size: 12px;
+    }
+
+}

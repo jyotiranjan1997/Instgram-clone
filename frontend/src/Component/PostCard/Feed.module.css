@@ -1,0 +1,29 @@
+
+.Box{
+    border:0.2px solid grey;
+    width:35%;
+    
+    margin: auto;
+    margin-bottom: 15px;
+}
+.Like{
+    color:red;
+}
+.Btn{
+    padding: 2px 5px;
+    border: 0.2px solid grey;
+}
+
+.Comment{
+    display: flex;
+    gap:10px;
+    font-size:25px;
+}
+
+@media screen and (min-width:200px) and (max-width:650px){
+  .Box
+{
+    width:55%;
+    font-size: 12px;
+  }
+}
