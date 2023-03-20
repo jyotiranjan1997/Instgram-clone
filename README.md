@@ -63,7 +63,7 @@
   home page it shows all posts and user can post comments and liks as well.
   
 - ### Profile Dashboard
-  ![](./assets/Profile.png)
+  ![](./assets/profile.png)
   
   user can edit his profile and also logout
   
